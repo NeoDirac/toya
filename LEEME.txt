@@ -1,40 +1,59 @@
-TOYA Productos Naturales — Sitio web listo para Netlify
-========================================================
+TOYA Productos Naturales — Sitio web compilado, listo para publicar
+==================================================================
 
-Esta carpeta contiene el sitio web TERMINADO y COMPILADO (carpeta "toya-web").
-No necesitas instalar nada ni programar nada.
+¿Qué contiene este ZIP?
 
-CÓMO PUBLICARLO (2 minutos):
-1. Entra a  https://app.netlify.com/drop
-   (crea una cuenta gratis si aún no tienes)
-2. Arrastra la carpeta "toya-web" completa a la zona de arrastre.
-3. En segundos tu sitio quedará publicado con una URL provisional,
-   por ejemplo:  toya-web-123456.netlify.app
-4. Para elegir un nombre más bonito: Site configuration →
-   Change site name → por ejemplo "productostoya"
-   (la URL quedaría: productostoya.netlify.app)
+   - LEEME.txt   → este archivo
+   - toya-web/   → el sitio web COMPLETO y COMPILADO (nueva versión)
+                   Contiene index.html, imágenes, estilos y scripts.
+                   No necesitas instalar ni programar nada.
+
+
+TU SITIO YA ESTÁ EN LÍNEA:
+   https://toyaproductos.netlify.app   (desplegado desde tu repo de GitHub)
+
+
+CÓMO PUBLICAR ESTA NUEVA VERSIÓN (flujo GitHub, ~3 minutos):
+
+   1. Descomprime este ZIP → obtienes la carpeta "toya-web"
+   2. Entra a tu repo  https://github.com/NeoDirac/toya
+   3. Botón "Add file" → "Upload files"
+   4. Abre la carpeta "toya-web", selecciona TODO su contenido
+      (Ctrl+A / Cmd+A — el contenido, no la carpeta) y arrástralo
+      a la zona de carga de GitHub
+   5. Mensaje del commit: por ejemplo "nueva version con fotos y logo"
+   6. Botón "Commit changes"
+   7. Netlify publica el cambio automáticamente en 1–2 minutos
+
+   (Los archivos viejos que queden en el repo no molestan: los nuevos
+   reemplazan a los que tienen el mismo nombre.)
+
+   Si prefieres Git desde tu computadora: clona el repo, borra todo el
+   contenido excepto la carpeta .git, copia el contenido de toya-web/,
+   y haz commit + push.
+
+
+ALTERNATIVA SIN GITHUB (publicar en otro sitio de Netlify):
+
+   1. Entra a  https://app.netlify.com/drop  (cuenta gratis, puedes
+      entrar con Google)
+   2. Arrastra la carpeta "toya-web" COMPLETA a la zona de arrastre
+   3. El sitio queda publicado en segundos con URL provisional
+   4. Para elegir nombre: Site configuration → Change site name
+
 
 NOVEDADES DE ESTA VERSIÓN:
-- Nueva sección "Encuentra TOYA en Guayaquil": los tres puntos de venta
-  verificados (Guayalma · Malecón, La María Orgánica · Urdesa y
-  Market Express · Parque Empresarial Colón) con dirección y botón
-  "Ver en el mapa" (Google Maps) en cada uno.
-- Nueva "Nuestra historia": la historia familiar de TOYA — la inspiración
-  de la madre de la fundadora, Esperanza Martínez, y su café de soya —
-  con tratamiento editorial y fotografía real.
-- Se eliminó toda referencia al proyecto COMPETE / TFO Canada
-  (TOYA no participa actualmente en ese programa).
-- La sección "Para compradores" presenta a TOYA como negocio ecuatoriano
-  en crecimiento y enlaza a los puntos de venta verificados.
-- En Contacto, la tarjeta de ubicación ahora lleva directo a la sección
-  de puntos de venta.
-- Versiones anteriores: fichas de producto con presentaciones y precios
-  del catálogo oficial, segundo teléfono (0984 098 267), favicon de marca,
-  sitio bilingüe ES/EN, 100% estático y optimizado para móvil.
-
-NOTAS:
-- El plan GRATUITO de Netlify es más que suficiente.
-- Los botones de WhatsApp (0985 480 959) y correo
-  (productostoya@gmail.com) funcionan solos, no dependen del hosting.
-- Si más adelante quieres cambiar algo del sitio, pide una versión
-  actualizada y vuelve a arrastrar la nueva carpeta.
+   - FOTOS REALES de los 3 puntos de venta (tus fotos del commit
+     "fotos"): Guayalma, La María Orgánica y Market Express ahora
+     muestran sus locales en las tarjetas de "Encuentra TOYA".
+   - LOGO DE MARCA VISIBLE: el logo oficial de TOYA ahora aparece en
+     la barra de navegación y en el pie de página.
+   - TARJETA DE VISTA PREVIA PARA REDES: al compartir el enlace por
+     WhatsApp/Facebook/etc. aparece una tarjeta de marca con el logo
+     TOYA y la foto del campo de soya (antes salía la imagen genérica
+     de Netlify porque la imagen apuntaba a un dominio provisional).
+   - Logo de Guayalma como sello en su tarjeta de punto de venta.
+   - Anteriores: sección "Encuentra TOYA" con botones de Google Maps,
+     historia familiar (Esperanza Martínez), fichas de producto del
+     catálogo oficial, segundo teléfono, favicon de marca, sitio
+     bilingüe ES/EN, 100% estático.
